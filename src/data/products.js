@@ -1,12 +1,11 @@
-
 export const PRODUCTS = [
   { 
     id: 'p1', 
     title: 'Blue T-Shirt', 
-    price: 190.99, 
+    price: 590.99, 
     category: 'Clothing', 
     desc: 'Comfortable cotton tee',
-    image: '../images/blueShirt.jpg'
+    image: process.env.PUBLIC_URL + '/images/blueShirt.jpg'
   },
   { 
     id: 'p2', 
@@ -14,7 +13,7 @@ export const PRODUCTS = [
     price: 790.99, 
     category: 'Footwear', 
     desc: 'Lightweight running shoes',
-    image: '../images/runningShoes.jpeg'
+    image: process.env.PUBLIC_URL + '/images/runningShoes.jpeg'
   },
   { 
     id: 'p3', 
@@ -22,7 +21,7 @@ export const PRODUCTS = [
     price: 90.99, 
     category: 'Home', 
     desc: 'Ceramic mug - 350ml',
-    image: '../images/coffeMug.jpeg'
+    image: process.env.PUBLIC_URL + '/images/coffeeMug.jpeg'
   },
   { 
     id: 'p4', 
@@ -30,15 +29,15 @@ export const PRODUCTS = [
     price: 490.99, 
     category: 'Electronics', 
     desc: 'On-ear headphones',
-    image: '../images/headPhones.jpeg'
+    image: process.env.PUBLIC_URL + '/images/headPhones.jpeg'
   },
   { 
     id: 'p5', 
     title: 'Backpack', 
-    price: 390.0, 
+    price: 390.00, 
     category: 'Accessories', 
     desc: 'Water-resistant backpack',
-    image: '../images/bag.jpeg'
+    image: process.env.PUBLIC_URL + '/images/bag.jpeg'
   },
   { 
     id: 'p6', 
@@ -46,6 +45,6 @@ export const PRODUCTS = [
     price: 49.99, 
     category: 'Stationery', 
     desc: 'A5 lined notebook',
-    image: '../images/noteBook.jpeg'
+    image: process.env.PUBLIC_URL + '/images/noteBook.jpeg'
   }
 ];
